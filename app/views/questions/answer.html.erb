@@ -1,0 +1,11 @@
+<h1>"Stupid Coaching"</h1>
+<div class="border-start border-5 mx-5 px-3 border-secondary">
+  <%= params[:question] %>
+  <p>- You</p>
+</div>
+<div class="border-start border-5 mx-5 px-3 border-secondary bg-warning bg-opacity-10">
+  <%= @answer %>
+  <p>- Your coach</p>
+  </div>
+
+<div class= "mx-5 px-3" ><%= link_to "Ask me again", ask_path, class: "text-decoration-none" %></div>
